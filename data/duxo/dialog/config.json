@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Set Config",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "gtime",
+      "label": "Grace Period Time",
+      "start": 0,
+      "end": 20,
+      "step": 1,
+      "initial": 10
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "btime",
+      "label": "Boogeyman Time",
+      "start": 0,
+      "end": 20,
+      "step": 1,
+      "initial": 10
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "set",
+      "label": "Set Rules",
+      "initial": false,
+      "on_true": "1",
+      "on_false": "0"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "rules",
+      "width": 250,
+      "label": "Rules",
+      "label_visible": true,
+      "max_length": 1000,
+      "multiline": {
+        "max_lines": 30
+      }
+    }
+  ],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "yes": {
+    "label": "Confirm",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function duxo:mini/setconfig {gtime:$(gtime),btime:$(btime),rules:\"$(rules)\",set:$(set)}"
+    }
+  },
+  "no": {
+    "label": "Cancel"
+  }
+}

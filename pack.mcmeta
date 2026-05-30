@@ -1,0 +1,34 @@
+{
+  "pack": {
+    "description": "a",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  },
+  "filter": {
+    "block": [
+      {
+      "namespace": "minecraft",
+      "path": "recipe/wooden_spear.json"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "recipe/stone_spear.json"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "recipe/iron_spear.json"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "recipe/diamond_spear.json"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "recipe/netherite_spear.json"
+    }
+  ]
+  }
+}
