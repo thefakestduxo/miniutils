@@ -14,5 +14,4 @@ In this GUI (so far) are:
 
  When you want to start your miniround you can either do `/session start` (like a boring person) or do `/function duxo:start` (like a cool individual)
 
-It is recommended to put the resource pack (https://download.mc-packs.net/pack/c7a4ac785a06355c5c9a7db5010680cb1b36b52f.zip) on the server. If you don't know how to do that, Kasai Sora did a great tutorial on how! 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qCVPgn3IppU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+It is recommended to put the resource pack (https://download.mc-packs.net/pack/c7a4ac785a06355c5c9a7db5010680cb1b36b52f.zip) on the server.
