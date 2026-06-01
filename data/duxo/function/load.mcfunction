@@ -49,3 +49,11 @@ tellraw @a [{"text":"\n Thanks for installing "},{"color":"green","hover_event":
 
 
 scoreboard objectives add duxo.mini.rules trigger
+
+
+scoreboard objectives add boolean dummy
+
+scoreboard players set alive temp 0
+scoreboard players set start temp 0
+
+scoreboard objectives add wins dummy

@@ -6,3 +6,5 @@ title @a subtitle ""
 function duxo:grace/timer
 
 schedule function duxo:grace/info 3s
+
+scoreboard players set start boolean 1

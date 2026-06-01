@@ -34,9 +34,9 @@
       "width": 250,
       "label": "Rules",
       "label_visible": true,
-      "max_length": 1000,
+      "max_length": 9000,
       "multiline": {
-        "max_lines": 30
+        "max_lines": 70
       }
     }
   ],
